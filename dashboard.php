@@ -4,9 +4,9 @@
 // Simple Sales Dashboard (Chart.js + Bootstrap) using mysqli (no PDO)
 // ตั้งค่าการเชื่อมต่อฐานข้อมูล
 $db_host = '127.0.0.1';
-$db_name = 's67160163';
-$db_user = 's67160163';
-$db_pass = 'ZVV4bKej';
+$db_name = 'a';
+$db_user = 'a';
+$db_pass = 'x';
 
 $mysqli = @new mysqli($db_host, $db_user, $db_pass, $db_name);
 if ($mysqli->connect_errno) {
